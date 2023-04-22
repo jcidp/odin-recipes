@@ -1,0 +1,38 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+img {
+    width: 580px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.recipe {
+    margin: 20px 20%;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
